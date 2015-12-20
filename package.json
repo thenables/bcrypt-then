@@ -10,9 +10,9 @@
     "native-or-bluebird": "^1.1.1"
   },
   "devDependencies": {
-    "bluebird": "^2.3.6",
+    "bluebird": "^3.1.1",
     "istanbul": "0",
-    "mocha": "1"
+    "mocha": "2.3.4"
   },
   "scripts": {
     "test": "mocha --reporter spec",
@@ -25,5 +25,7 @@
     "promise",
     "password"
   ],
-  "files": ["index.js"]
+  "files": [
+    "index.js"
+  ]
 }
