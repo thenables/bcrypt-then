@@ -6,3 +6,11 @@ node_js:
 language: node_js
 script: "npm run-script test-travis"
 after_script: "npm install coveralls@2 && cat ./coverage/lcov.info | coveralls"
+env:
+  - CXX=g++-4.8
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - g++-4.8
