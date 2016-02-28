@@ -1,6 +1,6 @@
 
+var Promise = require('any-promise')
 var bcrypt = require('bcrypt')
-var Promise = require('native-or-bluebird')
 
 exports.hash = function (password, salt) {
   salt = salt || 10

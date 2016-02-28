@@ -6,8 +6,8 @@
   "license": "MIT",
   "repository": "thenables/bcrypt-then",
   "dependencies": {
-    "bcrypt": "^0.8.0",
-    "native-or-bluebird": "^1.1.1"
+    "any-promise": "^1.1.0",
+    "bcrypt": "^0.8.0"
   },
   "devDependencies": {
     "bluebird": "^3.1.1",
