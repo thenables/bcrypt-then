@@ -7,7 +7,6 @@
 [![Dependency Status][david-image]][david-url]
 [![License][license-image]][license-url]
 [![Downloads][downloads-image]][downloads-url]
-[![Gittip][gittip-image]][gittip-url]
 
 [bcrypt](https://github.com/ncb000gt/node.bcrypt.js/) as promised.
 
@@ -50,5 +49,3 @@ bcrypt.compare('password', user.password).then(function (valid) {
 [license-url]: LICENSE
 [downloads-image]: http://img.shields.io/npm/dm/bcrypt-then.svg?style=flat-square
 [downloads-url]: https://npmjs.org/package/bcrypt-then
-[gittip-image]: https://img.shields.io/gratipay/jonathanong.svg?style=flat-square
-[gittip-url]: https://gratipay.com/jonathanong/
