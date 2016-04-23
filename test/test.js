@@ -11,7 +11,7 @@ describe('bcrypt', function () {
     })
 
     it('(password, salt)', function () {
-      return bcrypt.hash('password', 10, function (hash) {
+      return bcrypt.hash('password', 10).then(function (hash) {
         assert(typeof hash === 'string')
       })
     })
